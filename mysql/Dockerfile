@@ -1,4 +1,4 @@
-ROM mysql:8.0
+FROM mysql:8.0
 
 # Set environment variables (overridden by docker-compose)
 ENV MYSQL_ROOT_PASSWORD=rootpassword
